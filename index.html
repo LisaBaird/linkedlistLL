@@ -14,11 +14,18 @@
       <button id = "btn-enter">Enter</button>
     </div>
 
-    <div id = "card-side">
-      <h2 id ="card-title">TITLE</h2>
-      <p><a href= "#" id = "card-url">URL</a></p>
-      <button id = "btn-read">Read</button>
-      <button id = "btn-delete">Delete</button>
+    <div id="card-side">
+      <div class="card">
+        <h2 id="card-title" class="card-text">TITLE</h2>
+        <hr>
+        <p class="card-text"><a href= "#" id="card-url">URL</a></p>
+        <hr>
+        <div id="card-btn-holder">
+          <button id="btn-read card-btn">Read</button>
+          <button id="btn-delete card-btn">Delete</button>
+        </div>
+
+      </div>
     </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
