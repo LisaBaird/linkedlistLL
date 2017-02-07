@@ -12,16 +12,16 @@ body {
   height: 100vh;
   display: block;
   background-color: #455A64;
-
 }
 
-h1 {
+#title-logo {
   width: 86%;
-  margin
   margin-top: 150px;
   margin-bottom: 50px;
+  margin: auto;
   text-align: center;
 }
+
 .title {
   color: #FFFFFF;
   font-size: 54px;
@@ -53,10 +53,14 @@ h1 {
   font-size: 25px;
 }
 
+button {
+  border: 0px;
+  display: block;
+}
+
 #btn-enter {
   height: 37px;
   width: 87%;
-  display: block;
   margin: 30px auto;
   background-color: #FFC107;
   color: #FFFFFF;
@@ -79,29 +83,25 @@ h1 {
 }
 
 .card {
-  width: 80%;
-  height: 190px;
+  width: 85%;
+  height: 160px;
   background-color: #FFFFFF;
   color: #455A64;
   border: 2px solid #607D8B;
-  padding: 0px 10px;
-  margin-top: 10px;
+  padding: 0px 20px;
+  margin-top: 20px;
 }
 
 hr {
   border: 0px;
-  border-top: 1px solid #CFD8DC;
+  border-top: 2px solid #CFD8DC;
 }
 
 h2 {
+  margin-top: 10px;
   color: #455A64;
-  font-size: 20px;
-}
-
-p {
-  color: black;
-  font-family: sans-serif;
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 a {
@@ -109,6 +109,8 @@ a {
 }
 
 #card-url {
+  margin: 0px;
+  font-weight: 400;
   color: #607D8D;
   border-bottom: 1px solid #F2F4F4;
 }
@@ -118,19 +120,17 @@ a {
   border-bottom: 2px solid #FFC107;
 }
 
-#card-btn-holder {
-}
-
-#card-btn {
-  display: block;
+.card-btn {
   text-decoration: none;
+  font-size: 14px;
   background-color: #FFFFFF;
   border: none;
   color: #455A64;
   border-bottom: 1px solid #CFD8DC;
+  padding: 0px;
 }
 
-#card-btn:hover {
+.card-btn:hover {
   font-weight: 800;
   border-bottom: 1px solid #FFC107;
 }
