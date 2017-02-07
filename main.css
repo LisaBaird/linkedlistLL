@@ -70,17 +70,75 @@ h1 {
 
 #card-side {
   width: 50%;
+  background-color: #CFD8DC;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.card {
+  width: 80%;
+  height: 190px;
+  background-color: #FFFFFF;
+  color: #455A64;
+  border: 2px solid #607D8B;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+hr {
+  border: 0px;
+  border-top: 1px solid #CFD8DC;
+}
+
+h2 {
+  color: #455A64;
+  font-size: 20px;
 }
 
 p {
   color: black;
   font-family: sans-serif;
-  font-size: 20px;
-  border: 2px solid black;
+  font-size: 16px;
 }
 
-h2 {
-  color: black;
-  font-family: sans-serif;
-  font-size: 20px;
+a {
+  text-decoration: none;
+}
+
+#card-url {
+  color: #607D8D;
+  border-bottom: 1px solid #F2F4F4;
+}
+
+#card-url:hover {
+  font-weight: 800;
+  border-bottom: 2px solid #FFC107;
+}
+
+#card-btn-holder {
+}
+
+#card-btn {
+  display: block;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border: none;
+  color: #455A64;
+  border-bottom: 1px solid #CFD8DC;
+}
+
+#card-btn:hover {
+  font-weight: 800;
+  border-bottom: 1px solid #FFC107;
+}
+
+#btn-read {
+  float: left;
+}
+
+#btn-delete {
+  float: right;
 }
