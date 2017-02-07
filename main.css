@@ -9,16 +9,63 @@ body {
 
 #title-side {
   width: 50%;
+  height: 100vh;
+  display: block;
   background-color: #455A64;
+
+}
+
+h1 {
+  width: 86%;
+  margin
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.title {
+  color: #FFFFFF;
+  font-size: 54px;
+  font-weight: 800;
+
+}
+
+#logo {
+  width: 85px;
+  height: 55px;
+  margin: 1px 10px;
+}
+
+#input-title {
+  height: 37px;
+  width: 86%;
+  display: block;
+  margin: 30px auto 50px;
+  background-color: white;
+  font-size: 25px;
+}
+
+#input-url {
+  height: 37px;
+  width: 86%;
+  display: block;
+  margin: 30px auto 50px;
+  background-color: white;
+  font-size: 25px;
+}
+
+#btn-enter {
+  height: 37px;
+  width: 87%;
+  display: block;
+  margin: 30px auto;
+  background-color: #FFC107;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 #logo {
   width: 70px;
-}
-
-.title {
-  color: #FFFFFF;
-  font-weight: 800;
 }
 
 #card-side {
