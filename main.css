@@ -1,3 +1,30 @@
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+#title-side {
+  width: 50%;
+  background-color: #455A64;
+}
+
+#logo {
+  width: 70px;
+}
+
+.title {
+  color: #FFFFFF;
+  font-weight: 800;
+}
+
+#card-side {
+  width: 50%;
+}
+
 p {
   color: black;
   font-family: sans-serif;
