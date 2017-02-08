@@ -13,23 +13,11 @@ $('#btn-enter').on('click', function() {
     hideExample();
 })
 
-<<<<<<< HEAD
-//When user clicks READ button
-function markRead() {
-  $('.card').toggleClass('.read');
-  $('#card-url').toggleClass('read');
-  $('.btn-read').toggleClass('read');
-};
-
-$('.btn-read').on('click', function() {
-  markRead();
-=======
 //When user clicks READ button on card
 $('#card-side').on('click', '.btn-read', function() {
     $(this).parent().toggleClass('read');
     $(this).siblings('.card-text').children('#card-url').toggleClass('read');
     $(this).toggleClass('read');
->>>>>>> 4d462e68dd1b3409f8df543f804f00d255939b90
 });
 
 //When user clicks DELETE button on card
