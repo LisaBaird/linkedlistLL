@@ -160,6 +160,7 @@ a {
 .read {
   background-color: #F2F4F4;
 }
+
 @media screen and (max-width: 900px) {
   body {
     display: flex;
