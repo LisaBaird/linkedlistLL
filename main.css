@@ -160,6 +160,8 @@ a {
 .read {
   background-color: #F2F4F4;
 }
+
+
 @media screen and (max-width: 900px) {
   body {
     display: flex;
@@ -201,9 +203,27 @@ a {
 
   #card-side {
     width: 100%;
+    min-height: 50vh;
+    height: auto;
   }
 
   .card {
     width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .user-input {
+    width: 90%;
+  }
+
+  #btn-enter {
+    width: 90%;
+  }
+
+  .card {
+    width: 90%;
+    margin: 20px 10px 0px 10px;
   }
 }

@@ -21,7 +21,7 @@ $('#btn-enter').on('click', function() {
 
 //When user clicks READ button
 function markRead() {
-  $('.card').toggleClass('read');
+  $('.card').toggleClass('.read');
   $('#card-url').toggleClass('read');
   $('.btn-read').toggleClass('read');
 };
