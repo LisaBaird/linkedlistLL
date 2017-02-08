@@ -79,6 +79,8 @@ button {
   width: 70px;
 }
 
+
+/*CARD SIDE*/
 #card-side {
   width: 50%;
   background-color: #CFD8DC;
@@ -105,10 +107,9 @@ hr {
 }
 
 h2 {
-  margin-top: 10px;
-  color: #455A64;
-  font-size: 25px;
-  font-weight: 800;
+  margin: 10px 0px 0px 0px;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 a {
@@ -116,10 +117,11 @@ a {
 }
 
 #card-url {
-  margin: 0px;
+  font-size: 18px;
   font-weight: 400;
   color: #607D8D;
   border-bottom: 1px solid #F2F4F4;
+  margin: 0px;
 }
 
 #card-url:hover {
