@@ -120,10 +120,14 @@ a {
   border-bottom: 2px solid #FFC107;
 }
 
+#card-url.read {
+  border-bottom: 2px solid #CFD8DC;
+}
+
 .card-btn {
   text-decoration: none;
   font-size: 14px;
-  background-color: #FFFFFF;
+  background-color: transparent;
   border: none;
   color: #455A64;
   border-bottom: 1px solid #CFD8DC;
@@ -139,10 +143,20 @@ a {
   float: left;
 }
 
+#btn-read.read {
+  border: 0px;
+  font-weight: 800;
+  color: #F05A28;
+}
+
 #btn-remove {
   float: right;
 }
 
 .hide {
   display: none;
+}
+
+.read {
+  background-color: #F2F4F4;
 }
