@@ -1,4 +1,4 @@
-function hideExample () {
+function hideExample() {
   $('.example').addClass('hide');
 };
 
@@ -9,8 +9,13 @@ $('#btn-enter').on('click', function() {
     hideExample();
 })
 
-$('#btn-read').on('click', function () {
+$('#btn-read').on('click', function (event) {
   $('.card').toggleClass('read');
   $('#card-url').toggleClass('read');
   $('#btn-read').toggleClass('read');
+});
+
+$('#btn-remove').on('click', function () {
+  console.log("You clicked delete!");
+  $('.card').addClass('hide');
 });

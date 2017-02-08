@@ -17,9 +17,10 @@ body {
 
 #title-logo {
   width: 86%;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  /*margin-top: 150px;
+  margin-bottom: 50px;*/
   margin: auto;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -27,7 +28,6 @@ body {
   color: #FFFFFF;
   font-size: 54px;
   font-weight: 800;
-
 }
 
 #logo {
