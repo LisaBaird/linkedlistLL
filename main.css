@@ -42,20 +42,11 @@ h1 {
   margin: 1px 10px;
 }
 
-#input-title {
+.user-input {
   height: 37px;
   width: 86%;
   display: block;
-  margin: 30px auto 50px;
-  background-color: white;
-  font-size: 25px;
-}
-
-#input-url {
-  height: 37px;
-  width: 86%;
-  display: block;
-  margin: 30px auto 50px;
+  margin: 30px auto 50px auto;
   background-color: white;
   font-size: 25px;
 }
@@ -168,4 +159,51 @@ a {
 
 .read {
   background-color: #F2F4F4;
+}
+@media screen and (max-width: 900px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #title-side {
+    width: 100%;
+    min-height: auto;
+  }
+
+  #title-side-contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  #logo {
+    width: 35px;
+    height: 20px;
+  }
+
+  .user-input {
+    width: 50%;
+    margin: 25px auto;
+    font-size: 20px;
+  }
+
+  #btn-enter {
+    width: 50%;
+    margin: 30px auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  #card-side {
+    width: 100%;
+  }
+
+  .card {
+    width: 50%;
+  }
 }
