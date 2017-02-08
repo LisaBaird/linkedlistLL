@@ -20,7 +20,7 @@ $('#btn-enter').on('click', function() {
 })
 
 //When user clicks READ button
-function markRead(event) {
+function markRead() {
   $('.card').toggleClass('read');
   $('#card-url').toggleClass('read');
   $('.btn-read').toggleClass('read');
@@ -31,7 +31,7 @@ $('.btn-read').on('click', function() {
 });
 
 //WHen user clicks DELETE button
-function clickDelete(event) {
+function clickDelete() {
   $('.card').addClass('hide');
 };
 
