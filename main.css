@@ -78,7 +78,6 @@ button {
   background-color: #CFD8DC;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
   justify-content: space-around;
   min-height: 100vh;
 }
