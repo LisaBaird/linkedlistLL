@@ -5,11 +5,12 @@
 
 body {
   display: flex;
+  height: 100%
 }
 
 #title-side {
   width: 50%;
-  height: 100vh;
+  min-height: 100vh;
   display: block;
   background-color: #455A64;
 }
@@ -79,7 +80,7 @@ button {
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: space-around;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
@@ -89,7 +90,7 @@ button {
   color: #455A64;
   border: 2px solid #607D8B;
   padding: 0px 20px;
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 
 hr {
@@ -141,4 +142,8 @@ a {
 
 #btn-remove {
   float: right;
+}
+
+.hide {
+  display: none;
 }

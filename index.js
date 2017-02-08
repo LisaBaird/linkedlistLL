@@ -1,11 +1,3 @@
-
-//
-// $('#btn-enter').on('click', function() {
-//   var btnEnter = $('#btn-enter');
-//   displayTitle();
-//   displayURL();
-// });
-
 $('#btn-enter').on('click', function() {
     var inputTitle = $('#input-title').val();
     var inputURL = $('#input-url').val();
