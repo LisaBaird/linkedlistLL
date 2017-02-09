@@ -66,6 +66,14 @@ button {
   font-weight: 700;
 }
 
+#btn-enter:hover {
+background-color: #FFD773;
+}
+
+#btn-enter:disabled {
+  background-color: #FFC107;
+}
+
 #logo {
   width: 70px;
 }
@@ -101,10 +109,19 @@ h2 {
   margin: 10px 0px 0px 0px;
   font-size: 28px;
   font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #card-url {
@@ -113,6 +130,7 @@ a {
   color: #607D8D;
   border-bottom: 1px solid #F2F4F4;
   margin: 0px;
+
 }
 
 #card-url:hover {
@@ -224,6 +242,7 @@ a {
 
   .card {
     width: 90%;
+    max-width: 90%;
     margin: 20px 10px 0px 10px;
   }
 }
